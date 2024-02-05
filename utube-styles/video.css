@@ -1,0 +1,74 @@
+    .vid-grid {
+        display: grid;
+        
+        column-gap: 16px;
+        grid-auto-flow: row;
+        row-gap: 40px;
+        margin-top: 5px;
+        margin: 10px 30px;
+        width: 100%;
+
+        
+    }
+    .thumbnail {
+        width: 100%;
+        margin-bottom: 10px;
+        cursor: pointer;
+        
+    }
+    .v-title {
+        
+        margin-top: 0;
+        margin-bottom: 17px;
+        font-size: 2rem;
+        font-weight: bold;
+    
+
+    }
+    .v-author {
+        font-size: 1.5rem;
+        color: rgb(96, 96, 96);
+        margin-bottom: 4px;
+        margin-top: 0;
+        width: 100%;
+
+    }
+    .v-stats {
+        font-size: 1rem;
+        color: rgb(96, 96, 96);
+        margin-top: 0;
+    }
+    .descriptions-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+    .channel-picture {
+        width: 70px;
+        height: 70px;
+        border-radius: 100%;
+        cursor: pointer;
+    }
+    .descriptions-text {
+        display: inline-block;
+        vertical-align: top;
+    }
+    .descriptions-img {
+        display: inline-block;
+        vertical-align: top;
+    }
+    .vid-time {
+        background-color: black;
+        color: white;
+        width: fit-content;
+        font-size: 10%;
+        position: absolute;
+        bottom: 20px;
+        right: 15px;
+        font-size: small;
+
+        
+    }
+    .imgsec {
+        position: relative;
+    }

@@ -1,0 +1,172 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    justify-content: space-between;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(201, 198, 198);
+    padding-bottom: 0px;
+    background-color: white;
+    top: 0;
+    right: 0;
+    left: 0;
+    position: sticky;
+    margin-top: 0;
+    margin-left: -10px;
+    padding-left: 0;
+    z-index: 100;
+}
+
+.left-section {
+    display: inline-block;
+    align-content: center;
+    display: flex;
+    margin-left: 20px;
+}
+.middle-section {
+    flex: 1;
+    max-width: 600px;
+    min-width: 100px;
+    margin-left: 50px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.right-section {
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    
+    flex-shrink: 0;
+}
+.menu {
+    height: 30px;
+    margin-right: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.logo {
+    height: 30px;
+    width: 30px;
+    margin-right: 0;
+    display: flex;
+    margin-top: 10px;
+
+}
+span {
+    color: blue;
+    font-size: small;
+    align-self: center;
+    margin-left: 2px;
+    font-weight: bolder;
+    
+}
+span:hover {
+    color: rgb(233, 49, 3);
+}
+.search-b {
+    height: 18px;
+    border-color: rgb(219, 216, 216);
+    border-style: solid;
+    box-shadow:inset 1px 2px 3px rgba(0, 0, 0, 0.05); 
+    border-width: 1px;
+    flex: 1;
+    border-radius: 2px;
+    width: 0;
+    vertical-align: top;
+    margin-right: 0;
+    min-width: 20px;
+
+}
+.search-b::placeholder {
+    font-family: arial, times new roman;
+    font-size: 10px;
+    padding-left: 5px;
+    height: 15px;
+    
+}   
+.logow {
+    height: 20px;
+    
+    border-color: rgb(219, 216, 216);
+    border-style: solid;
+    border-width: 1px;
+    
+    background-color: rgb(219, 216, 216);;
+    width: 17px;
+    margin: -7px 5px 16px -9px;
+    
+    cursor: pointer;
+    vertical-align: top;
+}
+.sms {
+    height: 30px;
+    width: 20px;
+    
+    cursor: pointer;
+}
+.rightside {
+    height: 25px;
+    border-radius: 10px;
+    border: none;
+    border-color: white;
+    background-color: white;
+
+}
+button {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.notification-icon {
+    background-color: red;
+    color: white;
+    height: 15px;
+    width: 15px;
+    border-radius: 1px;
+    border-radius: 100%;
+    border: none;
+    position: absolute;
+    font-size: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    padding-left: 2px;
+    padding-right: 3px;
+    width: fit-content;
+    top: 0px;
+    right: 3px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+
+}
+.fbwatel {
+    position: relative;
+}
+
+button:active {
+    opacity: 0.5;
+
+
+}
+button div {
+    background-color: black;
+    font-size: 11px;
+    color: white;
+    display:block;
+    position: absolute;
+    margin-left: 10px;
+    margin-bottom: -30px;
+    opacity: 0;
+}
+button:hover div {
+    opacity: 1;
+}
+
